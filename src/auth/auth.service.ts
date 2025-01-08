@@ -93,7 +93,7 @@ export class AuthService {
 
 
         return this.authenticateUser({
-            userId: createdUser.id
+            userId: createdUser.id,
         });
     }
 
